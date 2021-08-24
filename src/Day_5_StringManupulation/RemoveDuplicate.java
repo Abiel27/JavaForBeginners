@@ -5,8 +5,9 @@ public class RemoveDuplicate {
         String xyzx = "AbielAbiel";
 
         System.out.println("xyzx = " + removeDup(xyzx));
+
     }
-        public static  String  removeDup( String  str) {
+    public static  String  removeDup( String  str) {
 
             String result = "";
 
@@ -15,8 +16,6 @@ public class RemoveDuplicate {
                 if (!result.contains("" + str.charAt(i)))
 
                     result += "" + str.charAt(i);
-
-
 
             return result;
 

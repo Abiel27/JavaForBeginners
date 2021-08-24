@@ -9,8 +9,8 @@ import java.util.stream.*;
 import java.lang.String;
 import java.util.*;
 
-import static jdk.nashorn.internal.objects.NativeArray.forEach;
-
+///**/import static jdk.nashorn.internal.objects.NativeArray.forEach;
+//
 
 public class streamInJava {
     public static void main(String[] args)throws IOException {
