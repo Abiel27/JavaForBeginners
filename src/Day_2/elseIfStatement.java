@@ -1,4 +1,4 @@
-package Day_1;
+package Day_2;
 
 public class elseIfStatement {
     public static void main(String[] args) {

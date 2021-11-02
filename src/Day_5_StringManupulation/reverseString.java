@@ -4,15 +4,16 @@ public class reverseString {
 
 
     public static void main(String[] args) {
-        String xyzx= "Rahwa";
-        System.out.println("(xyzx) = " + stringReverse(xyzx));
-
+        String reverse = "Rahwa";
+        System.out.println("reverse = " + stringReverse(reverse) );
     }
+
+
     public static String stringReverse(String str) {
-        String xyz = "";
+        String revert = "";
         for (int i = str.length() - 1; i >= 0; i--) {
-            xyz += str.toCharArray()[i];
+            revert += str.toCharArray()[i];
         }
-        return xyz;
+        return revert;
 
     }}
