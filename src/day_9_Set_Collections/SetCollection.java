@@ -1,31 +1,31 @@
-package day_9;
+package day_9_Set_Collections;
 
 import java.util.*;
 
-public class practiceSet {
+public class SetCollection {
     static String str3;
 
     public static void main(String[] args) {
 
-        Set<String> names1 = new HashSet<>();
-        names1.addAll(Arrays.asList("Abiel","abiel" , "Adnan", "Hoshang", "Hoshang"));
+        java.util.Set<String> names1 = new HashSet<>();
+        names1.addAll(Arrays.asList("abiel","abiel" , "Adnan", "Hoshang"));
         System.out.println(names1);
 
 
         System.out.println("=========================num2========================");
 //
-      Set<String> names2 = new LinkedHashSet<>();
+      java.util.Set<String> names2 = new LinkedHashSet<>();
         names2.addAll(Arrays.asList("Abiel","Abiel" , "Adnan","Serhii" , "Ercan", "Hoshang", "Hoshang", "Hoshang", "Hoshang", "Hoshang", "Hoshang"));
         System.out.println(names2);
 
         System.out.println("========================nnnnn=====================");
-        Set<String> names3 = new TreeSet<>();
+        java.util.Set<String> names3 = new TreeSet<>();
         names3.addAll(Arrays.asList("Rahwit","Abiel","Abiel","Daniel","Ruslan" , "Adnan","Serhii" , "Ercan", "Hoshang", "Hoshang", "Hoshang", "Hoshang", "Hoshang", "Hoshang"));
         System.out.println(names3);
 
         System.out.println("====================mmm================================");
 
-        String str = "abielabielRahwit";  // gabc
+        String str = "abielabiel Rah wit";  // gabc
         String res = "";
 
         for (String xing :
@@ -72,13 +72,13 @@ public class practiceSet {
 //            System.out.println( str3.toUpperCase() );
 
         HashSet<Integer> hashSet = new HashSet<>();
-        hashSet.addAll(Arrays.asList(null,1,2,null));
+        hashSet.addAll(Arrays.asList(null,1,2,3,null));
 
         System.out.println(hashSet);
 //
 //
         LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();
-        linkedHashSet.addAll(Arrays.asList(null, null, null, null, null));
+        linkedHashSet.addAll(Arrays.asList(null, null, null, null, 3));
 
         System.out.println(linkedHashSet);
 //
@@ -94,7 +94,7 @@ public class practiceSet {
 //
         System.out.println("======================WALA=======================");
 //
-        Set<Integer>  numbers = new HashSet<>();
+        java.util.Set<Integer> numbers = new HashSet<>();
         numbers.addAll( Arrays.asList(1,2,3,4,5,6,7,8,9,10,5,5,5,5,5,5,5,5,5,5)  );
 
         int  maxNum = Collections.max(numbers);

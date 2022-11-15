@@ -2,7 +2,7 @@ package Day_5_StringManupulation;
 
 public class RemoveDuplicate {
     public static void main(String[] args) {
-        String xyzx = "AbielAbiel";
+        String xyzx = "AbielAbiel hahaha hahaha ha";
 
         System.out.println("xyzx = " + removeDup(xyzx));
 
