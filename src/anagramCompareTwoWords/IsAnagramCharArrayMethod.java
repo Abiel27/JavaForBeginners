@@ -1,10 +1,10 @@
-package anagram;
+package anagramCompareTwoWords;
 
 import java.util.Arrays;
 
 
 
-public class IsAnagramCharArray {
+public class IsAnagramCharArrayMethod {
     public static boolean areAnagram(char[] str1, char[] str2) {
         int n1 = str1.length;
         int n2 = str2.length;
@@ -23,9 +23,9 @@ public class IsAnagramCharArray {
 
         }
             public static void main(String[] args) {
-                char[] xx = {'a', 'b', 'i', 'l','m'};
-                char[] yy = {'a', 'l', 'i', 'b'};
-                if (areAnagram(xx, yy))
+                char[] x = {'a', 'b', 'i', 'l'};
+                char[] y = {'a', 'l', 'i', 'b'};
+                if (areAnagram(x, y))
                     System.out.println(" True ");
 
                  else

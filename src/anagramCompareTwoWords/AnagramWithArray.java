@@ -1,4 +1,4 @@
-package anagram;
+package anagramCompareTwoWords;
 
 import java.util.Arrays;
 
