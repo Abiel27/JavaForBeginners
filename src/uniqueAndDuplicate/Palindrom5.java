@@ -20,7 +20,7 @@ public class Palindrom5 {
             revese += "" + xxx.charAt(i);
         }
             if (xxx.equalsIgnoreCase(revese)){
-                it.remove();
+               it.remove();
             }
         }
             System.out.println(set);

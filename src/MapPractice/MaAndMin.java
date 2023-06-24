@@ -9,14 +9,14 @@ public class MaAndMin {
 
         Map<String, Integer> map = new HashMap<>();
 
-        map.put("moon", 1200);
-        map.put("sun", 1230);
-        map.put("night", 2400);
-        map.put("tree", 23000);
-        System.out.println("map = " + map);
+        map.put("moon", 12);
+        map.put("sun", 10);
+        map.put("night", 24);
+        map.put("tree", 23);
+
 
         String nameMax = "";
-        Integer max = Integer.MIN_VALUE;
+       int max = Integer.MAX_VALUE;
         for (Map.Entry<String, Integer> eachEntrySet : map.entrySet()) {
             String name = eachEntrySet.getKey();
             Integer salary = eachEntrySet.getValue();
@@ -26,9 +26,13 @@ public class MaAndMin {
                 name = nameMax;
 
             }
+
         }
-        System.out.println(nameMax);
-        System.out.println(max);
+        System.out.println("=="+max);
+        System.out.println("=="+nameMax);
+
+
 
     }
+
 }

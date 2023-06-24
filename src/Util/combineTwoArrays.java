@@ -1,4 +1,4 @@
-package myUtilMethods;
+package Util;
 
 public class combineTwoArrays {
     public static int[] combineTwoArrays(int[] abi, int[] rahwit){

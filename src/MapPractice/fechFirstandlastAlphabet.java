@@ -8,9 +8,8 @@ public class fechFirstandlastAlphabet {
 
 
         Map<String, String> map = new HashMap<>();
+        //second cup iss needed
         Map<String, String> strings = new HashMap<>();
-
-
 
         map.put("moon", "me");
         map.put("sun", "bright");
@@ -20,7 +19,7 @@ public class fechFirstandlastAlphabet {
         System.out.println("------------------------");
 
         for (Map.Entry<String, String> eachEntry : map.entrySet()) {
-//            System.out.println("eachEntry = " + eachEntry);
+            System.out.println("eachEntry = " + eachEntry);
 
 
 

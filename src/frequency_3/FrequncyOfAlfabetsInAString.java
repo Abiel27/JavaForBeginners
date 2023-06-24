@@ -15,7 +15,6 @@ public class FrequncyOfAlfabetsInAString {
             for (int i=0; i<=string.length()-1; i++){ //index iterator
                 char ch2 = string.charAt(i);
                 if (ch == ch2 ){
-
                     count++;
                 }
                 }

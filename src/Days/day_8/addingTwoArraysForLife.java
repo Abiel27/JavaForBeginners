@@ -1,6 +1,6 @@
 package Days.day_8;
 
-import myUtilMethods.combineTwoArrays;
+import Util.combineTwoArrays;
 
 import java.util.Arrays;
 

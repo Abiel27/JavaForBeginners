@@ -19,7 +19,7 @@ public class uniqueAndduplicate {
         char ch = str.charAt(j);// 'a','b','c','d','e'
 
         int frequecy = 0; // frequency of ch
-        for (int i = 0; i < str.length()-1; i++) { // iterate the word from or just one charachter and next
+        for (int i = 0; i <= str.length()-1; i++) { // iterate the word from or just one charachter and next
             if (str.charAt(i) == ch){
                 frequecy ++;
             }
@@ -34,7 +34,7 @@ public class uniqueAndduplicate {
 
     }
         System.out.println("="+unique);
-        System.out.println(duplicate);//isoterm shows you the intersection
+        System.out.println("=="+duplicate);//isoterm shows you the intersection
 
 
     }

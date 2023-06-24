@@ -3,6 +3,8 @@ package palindrom;
 public class isPalindrom {
     // using while
     static boolean isPalindrome(String str) {
+        // redivider, deified, civic, radar, level, rotor,
+        // kayak, reviver, racecar, madam, and refer
 
         int i = 0, j = str.length() - 1;
 

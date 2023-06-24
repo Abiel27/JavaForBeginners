@@ -12,7 +12,7 @@ public class isPalin {
 
     }
     public static void main(String[] args) {
-        String st ="addaw";
+        String st ="ululu";
         if(isPalindromeword(st))
             System.out.println("yes");
         else

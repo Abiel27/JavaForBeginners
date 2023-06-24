@@ -1,4 +1,4 @@
-package myUtilMethods;
+package Util;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;

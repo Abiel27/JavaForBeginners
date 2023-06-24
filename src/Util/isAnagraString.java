@@ -1,8 +1,9 @@
-package myUtilMethods;
+package Util;
 
 import java.util.Arrays;
 
-public class reveseAString {
+public class isAnagraString {
+    //if two strings have the same value they are anagram
     public static void main(String[] args) {
         String str = "silent";
         String str2 = "listen";
